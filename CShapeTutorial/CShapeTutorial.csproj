@@ -48,6 +48,7 @@
     <Compile Include="Basic\B5_Operation.cs" />
     <Compile Include="Basic\B7_Loop.cs" />
     <Compile Include="Basic\B8_FucntionAndMethod.cs" />
+    <Compile Include="OOP\ObjectClass.cs" />
     <Compile Include="Program.cs"/>
     <Compile Include="Properties\AssemblyInfo.cs"/>
   </ItemGroup>

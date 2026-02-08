@@ -54,5 +54,16 @@ namespace CShapeTutorial.Basic
         {
             Console.WriteLine(x);
         }
+        
+        //Override
+        void MethodOverriding(int x)
+        {
+            Console.WriteLine(x);
+        }
+
+        void MethodOverriding(string x)
+        {
+            Console.WriteLine(x);
+        }
     }
 }
