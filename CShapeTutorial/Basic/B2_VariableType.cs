@@ -1,17 +1,13 @@
-﻿using System;
-
+﻿
 namespace CShapeTutorial.Basic
 {
     public class B2_VariableType
     {
-        
         void VariableDeclaration()
         {
-
-            
             //Data Type
             //Value Types
-            ValueType();
+            PrimitiveType();
             //Reference Types
             //Object, Dynami, Strings, Arrays, Classes etc.
             ReferenceType();
@@ -26,12 +22,13 @@ namespace CShapeTutorial.Basic
             
         }
 
-        void ValueType()
+        void PrimitiveType()
         {
+            // Primitive Data Types
             // - Store actual data directly
             // - Typically stored in the stack
             // - Include int, float, long, double, char, bool, decimal, struct, enum
-            // - Nullable versions availale (int?, double?, etc.)
+            // - Nullable versions available (int?, double?, etc.)
             // - Can be stored in heap if part of a reference type
             //Byte or Unsigned Byte 0-255
             byte myByte = 10;
@@ -64,7 +61,7 @@ namespace CShapeTutorial.Basic
         {
             // Memory Allocation
             
-            // - Reference type is a variable type which instead of storing the value in memory directly, stores the memory location of the actual data
+            // - Reference type is a variable type that instead of storing the value in memory directly, stores the memory location of the actual data
             // - The variable here stores the memory reference of the data and not the data directly
             // - Reference type data types are string, class, Array etc.
             // - When we copy this reference type of a data type it will just copy the memory address of the data so we will then have two variables pointing to the same data.

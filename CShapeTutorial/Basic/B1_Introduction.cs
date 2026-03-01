@@ -41,7 +41,6 @@ namespace CShapeTutorial.Basic // Namespace Name
         public void CommentExample()
         {
             //Comment
-
             //Single Line Comment
 
             /*
@@ -51,7 +50,6 @@ namespace CShapeTutorial.Basic // Namespace Name
 
 
         // XML Comment
-        
         ///<summary>
         // This method displays "Hello World!" on the console.
         ///</summary>
@@ -88,7 +86,6 @@ namespace CShapeTutorial.Basic // Namespace Name
             { 
                 int myVarInBlock = 300;
             }
-            
             // Console.WriteLine(myVarInBlock);
         }
     }
